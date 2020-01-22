@@ -16,3 +16,17 @@ Reference Manuals
 https://www.intel.com/products/processor/manuals/
 
 
+There are two notations used in intel Assembly AT&T and Intel Syntax,I would use intel Syntax
+
+Major difference is the source destination location  and $ sign.For example
+
+In AT&T : 
+* *mov $4, %eax // GP register assignment*
+* *mov $4, %(eax) // Memory assignment*
+
+But in Intel : 
+* *mov eax, 4 // GP register assignment*
+* *mov [eax],4 // Memory assignment*
+
+
+
