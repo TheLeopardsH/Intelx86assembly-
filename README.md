@@ -46,6 +46,10 @@ Special purpose registers:EIP,ESP,EBP
 |EDX   |         DX         |    DH      |    DL         |
 |ESI   |                    |            |               |
 |EDI   |                    |            |               |
+|EIP   |                    |            |               |Instruction pointer
+|ESP   |                    |            |               |Stack pointer
+|EBP   |                    |            |               |Base pointer
+
  
 
 
