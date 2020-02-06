@@ -30,3 +30,22 @@ But in Intel :
 
 
 
+
+### Regiters in x86
+```
+General purpose registers:EAX,ABX,ACX,ABX,ESI,EDI
+Special purpose registers:EIP,ESP,EBP
+```
+
+|32bits|                    |            |               |
+| ---- | ------------------ | ---------- | ------------- |                              
+|      |       16 bits      |   8bits    |    8bits      |
+|EAX   |         AX         |    AH      |    AL         |
+|EBX   |         BX         |    BH      |    BL         |
+|ECX   |         CX         |    CH      |    CL         |
+|EDX   |         DX         |    DH      |    DL         |
+|ESI   |                    |            |               |
+|EDI   |                    |            |               |
+ 
+
+
