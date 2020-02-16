@@ -67,6 +67,6 @@ DI = Destination Index
 
 # LEA
 The lea (load effective address) instruction is used to put a memory address into the destination.
-Syntax:lea destination, source : mov eax, [ebx+8]
+Syntax:lea destination, source : mov eax, [ebx+8] mostly used for printf in ghidra
 
 
