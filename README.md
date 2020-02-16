@@ -65,3 +65,8 @@ DI = Destination Index
      hardware stack is based on push, pop, call, and ret instructions-->
 
 
+# LEA
+The lea (load effective address) instruction is used to put a memory address into the destination.
+Syntax:lea destination, source : mov eax, [ebx+8]
+
+
