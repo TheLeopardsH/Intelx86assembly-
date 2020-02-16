@@ -17,6 +17,7 @@ https://www.intel.com/products/processor/manuals/
 
 
 There are two notations used in intel Assembly AT&T and Intel Syntax,I would use intel Syntax
+you can set it to intel in gdb by following command : set disassembly-flavor intel
 
 Major difference is the source destination location  and $ sign.For example
 
